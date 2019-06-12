@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06dfec1-d6ff-4d7b-ade6-09e3da10d96d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/keshavkummari.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/File_And_Dir_Mgmt.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Overview.py" />
-    </list>
+    <list default="true" id="c06dfec1-d6ff-4d7b-ade6-09e3da10d96d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
