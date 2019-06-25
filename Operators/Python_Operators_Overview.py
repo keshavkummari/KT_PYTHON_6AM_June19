@@ -204,5 +204,101 @@ True+True = False
   
   0101  # Output 1+1=0 1+0=1 1+1=0 1+0=1
   (Bits has to be differenet then its true condition)
+
+
+# 5. Bitwise Operators
+
+# Bitwise operators in Python :
+
+Operator	Meaning	Example
+1. &			Bitwise AND	x & y = 0 (0000 0000)
+2. |			Bitwise OR	x | y = 14 (0000 1110)
+3. ~			Bitwise NOT	~x = -11 (1111 0101)
+4. ^			Bitwise XOR	x ^ y = 14 (0000 1110)
+5. >>			Bitwise right shift	x>> 2 = 2 (0000 0010)
+6. <<			Bitwise left shift	x<< 2 = 40 (0010 1000)
+
+#!/usr/bin/python3
+
+a = 60            # 60 = 0011 1100
+b = 13            # 13 = 0000 1101
+
+print ('a=',a,':',bin(a),'b=',b,':',bin(b))
+
+c = 0
+
+c = ~a
+print ("result of COMPLEMENT is ", c,':',bin(c))
+
+#!/usr/bin/python3
+
+a = 60            # 60 = 0011 1100
+b = 13            # 13 = 0000 1101
+
+print ('a=',a,':',bin(a),'b=',b,':',bin(b))
+
+c = 0 
+
+c = ~a
+print ("result of COMPLEMENT is ", c,':',bin(c))
+
+c = a << 2
+print(f"Left Shift {c} : {bin(c)}")
+
+c = a >> 2
+print(f"Right Shift {c} : {bin(c)}")
+
+# Membership Operators 
+
+They are used to test whether a value or variable is found in a sequence
+(String, List, Tuple, Dictionary & Set)
+
+1. in
+2. not in 
+
+x = 'Hello world'
+y = {1:'a',2:'b'}
+
+print('W'.lower() in x)
+
+print(1 not in y)
+
+7. Identity Operators
+
+Used to check if two values or variables are located on the same part of the memory.
+
+1. is
+2. is not
+
+x1 = 5
+y1 = 5
+
+x2 = 'Hello'
+y2 = 'Hello'
+
+x3 = [1,2,3]
+y3 = [1,2,3]
+
+print(f"Memory Location of Variable x1 {x1} {id(x1)}")
+print(f"Memory Location of Variable y1 {y1} {id(y1)}")
+print("")
+print(f"Condition using Identity Operator : {x1 is y1}")
+print("")
+print(f"Memory Location of Variable x2 {x2} {id(x2)}")
+print(f"Memory Location of Variable y2 {y2} {id(y2)}")
+print("")
+print(f"Condition using Identity Operator : {x2 is y2}")
+print("")
+print(f"Memory Location of Variable x3 {x3} {id(x3)}")
+print(f"Memory Location of Variable y3 {y3} {id(y3)}")
+print("")
+print(f"Condition using Identity Operator : {x3 is not y3}")
+print("")
+
 """
+
+
+
+
+
 
