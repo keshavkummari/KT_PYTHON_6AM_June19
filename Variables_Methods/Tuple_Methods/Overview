@@ -1,0 +1,22 @@
+'''
+A tuple is an immutable sequence of values of any type.
+Tuple elements are indexed by sequential integers, starting with zero.
+
+Tuples are constructed by the comma operator,
+with or without enclosing parentheses.
+
+An empty tuple must have the enclosing parentheses.
+
+A single item tuple must have a trailing comma.
+'''
+
+a = (10,20.75,3+4j,'a','@')
+b = 10,
+c = 'a'
+d = 10,20.75,3+4j,'a','@'
+
+#print(a,b,c,d,type(a),type(b),type(c),type(d))
+
+print(a.count(10))
+
+print(a[0:4])
