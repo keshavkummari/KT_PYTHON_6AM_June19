@@ -1,0 +1,10 @@
+
+import urllib.request
+
+
+def read_text():
+      quotes = urllib.request.urlopen('https://github.com/keshavkummari/Python_7am_May_2019/blob/master/README.md')
+      contents_file = quotes.read()
+      print(contents_file)
+
+read_text()

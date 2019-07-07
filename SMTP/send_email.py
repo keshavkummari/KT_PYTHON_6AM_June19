@@ -1,36 +1,31 @@
 #!/usr/bin/python
 import smtplib
 
-print ('''
+gmail_user = 'enrique.abiel@gmail.com'
+gmail_password = 'ad@123456'
 
-  ________               .__.__   
- /  _____/  _____ _____  |__|  |  
-/   \  ___ /     \\__  \ |  |  |  
-\    \_\  \  Y Y  \/ __ \|  |  |__
- \______  /__|_|  (____  /__|____/
-        \/      \/     \/         
-                           File  send
-               Coder by Keshav Kummari
-''')
+from_1=gmail_user
 
+to = ['keshav.kummari@gmail.com','aguturu@gmail.com ']
 
-sender = 'root@py33.minnu.com'
-receivers = ['keshavk@py33.minnu.com']
+subject = 'Sending Email using GMAIL Mail Server-KeshavKummari'
 
-message = """From: From Person <root@py33.minnu.com>
-To: To Person <keshav.kummari@py33.minnu.com>
-MIME-Version: 1.0
-Content-type: text/html
-Subject: SMTP HTML e-mail test
+body = 'Hi, \n  This is a Email Test \n Thanks, \nRoot.'
 
-This is an e-mail message to be sent in HTML format
+email_text = """\
+From: %s
+To: %s
+Subject: %s
 
-<b>This is HTML message.</b>
-<h1>This is headline.</h1>
-"""
+%s
+""" % (from_1, ", ".join(to), subject, body)
+
 try:
-   smtpObj = smtplib.SMTP('localhost')
-   smtpObj.sendmail(sender, receivers, message)
-   print ("Successfully sent email")
-except SMTPException:
-   print ("Error: unable to send email")
+    server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+    server.ehlo()
+    server.login(gmail_user, gmail_password)
+    server.sendmail(from_1, to, email_text)
+    server.close()
+    print ('Email has been sent!')
+except:
+    print ('Something went wrong...')
