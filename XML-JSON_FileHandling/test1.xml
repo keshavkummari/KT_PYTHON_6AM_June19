@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<course>                                # Root Element
+    <list>                              # Child Element
+        <aws>Welcome to AWS World</aws>                     # Sub-Child Element
+        <azure></azure>
+        <python></python>
+    </list>
+
+
+</course>

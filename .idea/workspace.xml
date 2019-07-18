@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c06dfec1-d6ff-4d7b-ade6-09e3da10d96d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOPS/Class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOPS/Overview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/GUI_Overview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/cal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPS/Public-And-Private_Properties_of_A_Class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML-JSON_FileHandling/Dom_API_Read_course.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML-JSON_FileHandling/XML_Overview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML-JSON_FileHandling/addressbook.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML-JSON_FileHandling/course.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML-JSON_FileHandling/movies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML-JSON_FileHandling/read_addressbook_using_saxapi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML-JSON_FileHandling/sax_movies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML-JSON_FileHandling/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML-JSON_FileHandling/test1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/KT_PYTHON_6AM_June19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KT_PYTHON_6AM_June19.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPS/Overview.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOPS/Overview.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +28,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OOPS/Overview.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/GUI/GUI_Overview.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+              <folding>
+                <element signature="e#589#610#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OOPS/Class.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/GUI/cal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="82" column="88" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="89" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -31,6 +56,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -65,8 +91,21 @@
         <option value="$PROJECT_DIR$/Database/Overview_Of_DB.py" />
         <option value="$PROJECT_DIR$/SMTP/mail.py" />
         <option value="$PROJECT_DIR$/SMTP/send_email.py" />
-        <option value="$PROJECT_DIR$/OOPS/Overview.py" />
         <option value="$PROJECT_DIR$/OOPS/Class.py" />
+        <option value="$PROJECT_DIR$/OOPS/Overview.py" />
+        <option value="$PROJECT_DIR$/OOPS/Public-And-Private_Properties_of_A_Class.py" />
+        <option value="$PROJECT_DIR$/XML-JSON_FileHandling/xml_overview.py" />
+        <option value="$PROJECT_DIR$/XML-JSON_FileHandling/test1.xml" />
+        <option value="$PROJECT_DIR$/XML-JSON_FileHandling/test.html" />
+        <option value="$PROJECT_DIR$/XML-JSON_FileHandling/movies.xml" />
+        <option value="$PROJECT_DIR$/XML-JSON_FileHandling/XML_Overview.py" />
+        <option value="$PROJECT_DIR$/XML-JSON_FileHandling/sax_movies.py" />
+        <option value="$PROJECT_DIR$/XML-JSON_FileHandling/addressbook.xml" />
+        <option value="$PROJECT_DIR$/XML-JSON_FileHandling/read_addressbook_using_saxapi.py" />
+        <option value="$PROJECT_DIR$/XML-JSON_FileHandling/course.xml" />
+        <option value="$PROJECT_DIR$/XML-JSON_FileHandling/Dom_API_Read_course.py" />
+        <option value="$PROJECT_DIR$/GUI/GUI_Overview.py" />
+        <option value="$PROJECT_DIR$/GUI/cal.py" />
       </list>
     </option>
   </component>
@@ -92,7 +131,7 @@
             <path>
               <item name="KT_PYTHON_6AM_June19" type="b2602c69:ProjectViewProjectNode" />
               <item name="KT_PYTHON_6AM_June19" type="462c0819:PsiDirectoryNode" />
-              <item name="OOPS" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -102,9 +141,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -118,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Overview_Of_sets">
+  <component name="RunManager" selected="Python.cal">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -130,7 +170,7 @@
       <module name="" />
       <method v="2" />
     </configuration>
-    <configuration name="Overview_Of_Dict_Methods" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Dom_API_Read_course" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="KT_PYTHON_6AM_June19" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,11 +178,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Variables_Methods/Dict_Methods" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/XML-JSON_FileHandling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Variables_Methods/Dict_Methods/Overview_Of_Dict_Methods.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/XML-JSON_FileHandling/Dom_API_Read_course.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +191,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Overview_Of_Numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GUI_Overview" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="KT_PYTHON_6AM_June19" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,11 +199,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Variables_Methods/Numbers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Variables_Methods/Numbers/Overview_Of_Numbers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/GUI_Overview.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +212,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Overview_Of_sets" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="KT_PYTHON_6AM_June19" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,11 +220,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Variables_Methods/sets_methods" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Variables_Methods/sets_methods/Overview_Of_sets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/cal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,7 +233,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="count" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="read_addressbook_using_saxapi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="KT_PYTHON_6AM_June19" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,11 +241,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Variables_Methods/Strings_Methods" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/XML-JSON_FileHandling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Variables_Methods/Strings_Methods/count.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/XML-JSON_FileHandling/read_addressbook_using_saxapi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,7 +254,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="methods" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sax_movies" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="KT_PYTHON_6AM_June19" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,11 +262,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Variables_Methods/Strings_Methods" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/XML-JSON_FileHandling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Variables_Methods/Strings_Methods/methods.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/XML-JSON_FileHandling/sax_movies.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,19 +290,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.methods" />
-      <item itemvalue="Python.count" />
-      <item itemvalue="Python.Overview_Of_Dict_Methods" />
-      <item itemvalue="Python.Overview_Of_Numbers" />
-      <item itemvalue="Python.Overview_Of_sets" />
+      <item itemvalue="Python.sax_movies" />
+      <item itemvalue="Python.read_addressbook_using_saxapi" />
+      <item itemvalue="Python.Dom_API_Read_course" />
+      <item itemvalue="Python.GUI_Overview" />
+      <item itemvalue="Python.cal" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Overview_Of_sets" />
-        <item itemvalue="Python.Overview_Of_Numbers" />
-        <item itemvalue="Python.Overview_Of_Dict_Methods" />
-        <item itemvalue="Python.count" />
-        <item itemvalue="Python.methods" />
+        <item itemvalue="Python.cal" />
+        <item itemvalue="Python.GUI_Overview" />
+        <item itemvalue="Python.Dom_API_Read_course" />
+        <item itemvalue="Python.read_addressbook_using_saxapi" />
+        <item itemvalue="Python.sax_movies" />
       </list>
     </recent_temporary>
   </component>
@@ -283,26 +323,26 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18336026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.104200326" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2931507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2630137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28219178" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27260274" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.41643837" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -454,11 +494,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OOPS/Class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OOPS/Overview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOPS/class_overview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOPS/inheritance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOPS/poly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOPS/Public-And-Private_Properties_of_A_Class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML-JSON_FileHandling/XML_Overview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML-JSON_FileHandling/sax_movies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML-JSON_FileHandling/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML-JSON_FileHandling/test1.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/OOPS/Class.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/XML-JSON_FileHandling/addressbook.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML-JSON_FileHandling/read_addressbook_using_saxapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML-JSON_FileHandling/Dom_API_Read_course.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#1#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML-JSON_FileHandling/course.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML-JSON_FileHandling/movies.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/GUI_Overview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding>
+            <element signature="e#589#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/cal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="82" column="88" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
